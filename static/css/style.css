@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 auto;
+  background: #343442;
+  color: #fff;
+  user-select: none;
+}
+
+#img-h{
+  border: 0;
+}
+
+button{
+  background: transparent;
+  border: 0;
+  outline: none;
+}
+
+header{
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+header nav{
+  margin: 0 auto;
+  margin-left: 3rem;
+}
+
+header nav ul{
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+}
+
+header h1{
+  margin: 4.4px 0 0 2px;
+}
+
+header nav ul a{
+
+  /* superior, direito, inferior e esquerdo */
+  margin-top: 15px;
+  padding: 0 0 0 10%;
+  text-align: right;
+  list-style: none;
+}
+
+.ts{
+  /* Colocando efeito de vidro */
+  background: rgba(255,255,255,0.100);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  
+  /* colocando a sombra */
+  -webkit-box-shadow: 5px 5px 16px 1px rgba(0,0,0,0.14); 
+  box-shadow: 5px 5px 16px 1px rgba(0,0,0,0.14);
+  
+  /* Ajustando as bordas*/
+  border-radius: 3px;
+  width: 10rem;
+  padding: 4px;
+  margin: 5px;
+}
+
+.ts h4{
+  text-align: center;
+}
+
+#assunto{
+  /* Colocando efeito de vidro */
+  background: rgba(255,255,255,0.100);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  
+  /* colocando a sombra */
+  -webkit-box-shadow: 5px 5px 16px 1px rgba(0,0,0,0.14); 
+  box-shadow: 5px 5px 16px 1px rgba(0,0,0,0.14);
+  
+  /* Ajustando as bordas*/
+  border-radius: 3px;
+  width: 90%;
+  margin: 5px;
+  padding: 4px;
+}
+
