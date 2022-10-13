@@ -40,7 +40,6 @@ header{
 
 header nav{
   margin: 0 auto;
-  /* margin-left: 3rem; */
   text-align: center;
 }
 
@@ -53,14 +52,6 @@ header nav ul{
 header h1{
   margin: 4.4px 0 0 2px;
 }
-hr{
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  border: 0.1px solid #fff;
-  background: #fff;
-}
-
 
 header nav ul a{
 
@@ -71,7 +62,8 @@ header nav ul a{
   list-style: none;
 }
 
-.ts{
+.usd{
+  padding: 5px;
   /* Colocando efeito de vidro */
   background: rgba(255,255,255,0.100);
   backdrop-filter: blur(15px);
@@ -83,29 +75,21 @@ header nav ul a{
   
   /* Ajustando as bordas*/
   border-radius: 3px;
-  width: 10rem;
-  padding: 4px;
+  width: 90px;
   margin: 5px;
 }
 
-.ts h4{
+.usd img{
+  width: 80px;
   text-align: center;
 }
 
-#assunto{
-  /* Colocando efeito de vidro */
-  background: rgba(255,255,255,0.100);
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-  
-  /* colocando a sombra */
-  -webkit-box-shadow: 5px 5px 16px 1px rgba(0,0,0,0.14); 
-  box-shadow: 5px 5px 16px 1px rgba(0,0,0,0.14);
-  
-  /* Ajustando as bordas*/
-  border-radius: 3px;
-  /* Ajustando a largula de 90% da página */
-  width: 90%;
-  margin: 5px;
-  padding: 4px;
+.usd h4{
+  text-align: center;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

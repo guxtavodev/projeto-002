@@ -9,6 +9,13 @@ html{
   height: 100vh;
   margin: 0 auto;
 }
+hr{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0.1px solid #fff;
+  background: #fff;
+}
 
 body{
   width: 100%;
@@ -40,7 +47,6 @@ header{
 
 header nav{
   margin: 0 auto;
-  /* margin-left: 3rem; */
   text-align: center;
 }
 
@@ -53,14 +59,6 @@ header nav ul{
 header h1{
   margin: 4.4px 0 0 2px;
 }
-hr{
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  border: 0.1px solid #fff;
-  background: #fff;
-}
-
 
 header nav ul a{
 
@@ -71,7 +69,39 @@ header nav ul a{
   list-style: none;
 }
 
-.ts{
+.opt{
+  /* Colocando efeito de vidro */
+  background: rgba(255,255,255,0.100);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  
+  /* colocando a sombra */
+  -webkit-box-shadow: 5px 5px 16px 1px rgba(0,0,0,0.14); 
+  box-shadow: 5px 5px 16px 1px rgba(0,0,0,0.14);
+  
+  /* Ajustando as bordas*/
+  border-radius: 3px;
+  width: 98%;
+  
+  margin: 5px;
+}
+
+.opt h3{
+  text-align: center;
+}
+
+.opt .opns{
+  padding: 4px;
+  text-align: center;
+}
+
+select{
+  outline: none;
+  border: 0;
+  border-radius: 3px;
+}
+
+form{
   /* Colocando efeito de vidro */
   background: rgba(255,255,255,0.100);
   backdrop-filter: blur(15px);
@@ -86,26 +116,31 @@ header nav ul a{
   width: 10rem;
   padding: 4px;
   margin: 5px;
+  margin: 0 auto;
+  width: 70%;
 }
 
-.ts h4{
-  text-align: center;
+form .form-g{
+  display: flex;
+  flex-direction: column;
 }
 
-#assunto{
-  /* Colocando efeito de vidro */
-  background: rgba(255,255,255,0.100);
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-  
-  /* colocando a sombra */
-  -webkit-box-shadow: 5px 5px 16px 1px rgba(0,0,0,0.14); 
-  box-shadow: 5px 5px 16px 1px rgba(0,0,0,0.14);
-  
-  /* Ajustando as bordas*/
+form .form-g input{
+  outline: none;
+  border: none;
+  padding: 2px;
   border-radius: 3px;
-  /* Ajustando a largula de 90% da página */
-  width: 90%;
-  margin: 5px;
-  padding: 4px;
+}
+
+form input[type="submit"]{
+  background: #0073ff;
+  border: 0;
+  width: 98%;
+  text-align: center;
+  padding: 2px;
+  margin: 4px;
+  margin-top: 8px;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 13px;
 }

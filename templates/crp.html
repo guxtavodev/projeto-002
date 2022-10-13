@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="../static/css/crp.css">
+</head>
+
+<body>
+  <header>
+    <h1>KyClass</h1>
+    <nav>
+      <ul>
+        <a><li>Início</li></a>
+        <a><li>Notas</li></a>
+        <a><li>Outros</li></a>
+      </ul>
+    </nav>
+  </header>
+  <h2>Correção de Prova</h2>
+  <main>
+    <div class="gsf">
+      
+      <div class="question-1">
+        <label for="q1">Questão 1</label>
+        <input type="number" id="q1">
+      </div>
+      <div class="question-2">
+        <label for="q1">Questão 2</label>
+        <input type="number" id="q2">
+      </div>
+      <div class="question-3">
+        <label for="q1">Questão 3</label>
+        <input type="number" id="q3">
+      </div>
+      <input type="submit" value="Gerar Prova">
+    </div>
+  </main>
+  <div id="rst">
+    <input id="aln" type="text" placeholder="Nome do Aluno">
+    <div id="jsg" class="res1">
+      <label>Questão 1:</label>
+      <button key="1" class="trues">Acertou</button>
+      <button key="2" class="falses">Errou</button>
+    </div>
+    <div id="jsg" class="res2">
+      <label>Questão 2:</label>
+      <button key="1" class="trues">Acertou</button>
+      <button key="2" class="falses">Errou</button>
+    </div>
+    <div id="jsg" class="res3">
+      <label>Questão 3:</label>
+      <button key="1" class="trues">Acertou</button>
+      <button key="2" class="falses">Errou</button>
+    </div>
+    <button class="trye">Próximo</button>
+    <button class="falsy">Sair</button>
+  </div>
+</body>
+
+</html>

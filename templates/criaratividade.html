@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="../static/css/ca.css">
+</head>
+
+<body>
+  <header>
+    <h1>KyClass</h1>
+    <nav>
+      <ul>
+        <a><li>Ínicio</li></a>
+        <a><li>Notas</li></a>
+        <a><li>Outros</li></a>
+      </ul>  
+    </nav>
+  </header>
+  <main>
+    <div class="opt">
+    <h3>Opções/Filtro</h3>
+    <hr>
+    <div class="opns">
+      <select id="materia">
+        <option>Matemática</option>
+        <option>Ciências</option>
+      </select>
+      <select id="turma">
+        <option>9V1</option>
+        <option>9V2</option>
+        <option>7V2</option>
+      </select>
+      <select id="school">
+        <option>HTA</option>
+        <option>Rômulo</option>
+        <option>Cemac/Saubara</option>
+      </select>
+    </div>
+  </div>
+  </main>
+  <div id="create-atv">
+    <form>
+      <div class="form-g">
+        <label for="assunto">Assunto da Atividade</label>
+        <input name="ass" id="assunto" type="text">
+      </div>
+      <div class="form-g">
+        <label for="nvl">Nível da Atividade</label>
+        <select name="nlv" id="nvl">
+          <option value="desafiador">Desafiador</option>
+          <option value="facil">Fácil</option>
+          <option value="medio">Médiano</option>
+        </select>
+      </div>
+      <div class="form-g">
+        <label for="nq">Número de questões</label>
+        <input id="nq" type="number" name="n-questions">
+      </div>
+      <div class="form-g">
+        <label for="prz">Prazo</label>
+        <input id="prz" type="date" name="prz">
+      </div>
+      <input type="submit" value="Criar atividade">
+    </form>
+  </div>
+</body>
+
+</html>

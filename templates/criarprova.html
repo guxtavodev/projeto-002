@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Criar Prova</title>
+  <link rel="stylesheet" href="../static/css/cp.css">
+</head>
+
+<body>
+  <!-- Parte de cima do site -->
+  <header>
+    <h1>KyClass</h1>
+    <nav>
+      <ul>
+        <a><li>Início</li></a>
+        <a><li>Notas</li></a>
+        <a><li>Outros</li></a>
+      </ul>
+    </nav>
+  </header>
+  <!-- Filtro de Turmas -->
+  <div class="opt">
+    <h3>Opções/Filtro</h3>
+    <hr>
+    <div class="opns">
+      <select id="materia">
+        <option>Matemática</option>
+        <option>Ciências</option>
+      </select>
+      <select id="turma">
+        <option>9V1</option>
+        <option>9V2</option>
+        <option>7V2</option>
+      </select>
+      <select id="school">
+        <option>HTA</option>
+        <option>Rômulo</option>
+        <option>Cemac/Saubara</option>
+      </select>
+    </div>
+  </div>
+  <!-- Formulário para a criação da Prova/Atividade -->
+  <main>
+    <div id="create-atv">
+    <form>
+      <div class="form-g">
+        <label for="assunto">Assunto da Prova</label>
+        <input name="ass" id="assunto" type="text">
+      </div>
+      <div class="form-g">
+        <label for="nvl">Nível da Prova</label>
+        <select name="nlv" id="nvl">
+          <option value="desafiador">Desafiador</option>
+          <option value="facil">Fácil</option>
+          <option value="medio">Médiano</option>
+        </select>
+      </div>
+      <div class="form-g">
+        <label for="nq">Número de questões</label>
+        <input id="nq" type="number" name="n-questions">
+      </div>
+      <div class="form-g">
+        <label for="prz">Prazo</label>
+        <input id="prz" type="date" name="prz">
+      </div>
+      <div class="form-g">
+        <label for="drz">Duração em Minutos</label>
+        <input type="number" name="drc" id="drz">
+      </div>
+      <input type="submit" value="Criar Prova">
+    </form>
+   </div>
+  </main>
+  
+</body>
+
+</html>

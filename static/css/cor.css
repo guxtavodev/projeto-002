@@ -20,6 +20,14 @@ body{
   user-select: none;
 }
 
+hr{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0.1px solid #fff;
+  background: #fff;
+}
+
 #img-h{
   border: 0;
 }
@@ -40,7 +48,6 @@ header{
 
 header nav{
   margin: 0 auto;
-  /* margin-left: 3rem; */
   text-align: center;
 }
 
@@ -53,14 +60,6 @@ header nav ul{
 header h1{
   margin: 4.4px 0 0 2px;
 }
-hr{
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  border: 0.1px solid #fff;
-  background: #fff;
-}
-
 
 header nav ul a{
 
@@ -71,7 +70,7 @@ header nav ul a{
   list-style: none;
 }
 
-.ts{
+.opt{
   /* Colocando efeito de vidro */
   background: rgba(255,255,255,0.100);
   backdrop-filter: blur(15px);
@@ -83,16 +82,27 @@ header nav ul a{
   
   /* Ajustando as bordas*/
   border-radius: 3px;
-  width: 10rem;
-  padding: 4px;
+  width: 98%;
+  
   margin: 5px;
 }
 
-.ts h4{
+.opt h3{
   text-align: center;
 }
 
-#assunto{
+.opt .opns{
+  padding: 4px;
+  text-align: center;
+}
+
+select{
+  outline: none;
+  border: 0;
+  border-radius: 3px;
+}
+
+main{
   /* Colocando efeito de vidro */
   background: rgba(255,255,255,0.100);
   backdrop-filter: blur(15px);
@@ -104,8 +114,50 @@ header nav ul a{
   
   /* Ajustando as bordas*/
   border-radius: 3px;
-  /* Ajustando a largula de 90% da página */
-  width: 90%;
+  width: 98%;
   margin: 5px;
+}
+
+main div{
   padding: 4px;
 }
+main div h4{
+  text-align: center;
+}
+
+main div#prv{
+  background: #005b5e;
+  color: #fff;
+  border-radius:3px;
+}
+
+.jso{
+  color: #00FFFF;
+}
+
+h2{
+  text-align: center;
+}
+
+.btns #cp{
+  background: #ff0000;
+  color: #fff;
+  font-size: 15px;
+  width: 50%;
+  border-radius: 3px;
+}
+
+.btns #ca{
+  background: #3b3bff;
+  color: #fff;
+  font-size: 15px;
+  width: 50%;
+  border-radius: 3px;
+  margin-top: 3px;
+  
+}
+
+.btns{
+  text-align: center;
+}
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="../static/css/cor.css">
+</head>
+
+<body>
+  <header>
+    <h1>KyClass</h1>
+    <nav>
+      <ul>
+        <a><li>Ínicio</li></a>
+        <a><li>Notas</li></a>
+        <a><li>Outros</li></a>
+      </ul>  
+    </nav>
+  </header>
+  <h2>Correções e Atividades</h2>
+  <div class="btns">
+    <button id="cp">Criar Prova</button>
+    <button id="ca">Criar Atividade</button>
+  </div>
+  <div class="opt">
+    <h3>Opções/Filtro</h3>
+    <hr>
+    <div class="opns">
+      <select id="materia">
+        <option>Matemática</option>
+        <option>Ciências</option>
+      </select>
+      <select id="turma">
+        <option>9V1</option>
+        <option>9V2</option>
+        <option>7V2</option>
+      </select>
+      <select id="school">
+        <option>HTA</option>
+        <option>Rômulo</option>
+        <option>Cemac/Saubara</option>
+      </select>
+    </div>
+  </div>
+  <main>
+    <!-- Template de uma atividade que não foi corrigida -->
+    <div id="atvj">
+      <h4>Atividade</h4>
+      <p>Resumo sobre o estado novo</p>
+      <p>Prazo: 02/12</p>
+      <a href="#" class="jso" id="crs">Corrigir</a>
+    </div>
+    <hr>
+    <!-- Template de Atividade Já corrigida -->
+    <div id="atvn">
+      <h4>Atividades</h4>
+      <p>Resumo sobre a Constituição</p>
+      <p>Já corrigida!</p>
+      <p>12/30 fizeram</p> 
+      <a class="jso" id="vqf">Ver quem fez a atividade.</a>
+    </div>
+    <!-- Prova -->
+    <hr>
+    <div id="prv">
+      <h4>Prova</h4>
+      <p>Estado Novo e Constituição</p>
+      <a href="#" class="jso" id="crpr">Corrigir Prova</a>
+      <p>Data: 02/10</p>
+    </div>
+  </main>
+  <script src="../static/js/main.js"></script>
+</body>
+
+</html>
