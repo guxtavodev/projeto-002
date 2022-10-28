@@ -1,0 +1,129 @@
+:root{
+  --azulEscuro: #086788;
+  --azulClaro: #07A0C3;
+  --amarelo: #F0C808;
+  --branquin: #FFF1D0;
+  --vermelho: #DD1C1A;
+  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  width: 100%;
+  height: 100vh;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  color: #000;
+  background: var(--amarelo);
+  font-family: Arial, Helvetica;
+}
+
+h1{
+  margin-left: 5px;
+}
+
+header{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  background: var(--branquin);
+  color: #000;
+}
+
+header nav{
+  margin-left: 2rem;
+  margin-top: 12px;
+}
+
+header nav ul{
+  display: flex;
+  list-style: none;
+}
+
+header ul li{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+ul{
+  list-style: none;
+}
+
+.prt{
+  width: 70%;
+  margin: 0 auto;
+  
+  margin-top: 10px;
+  
+  /* Colocando efeito de vidro */
+  background: rgba(255,255,255,0.100);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  
+  /* colocando a sombra */
+  -webkit-box-shadow: 5px 5px 16px 1px rgba(0,0,0,0.14); 
+  box-shadow: 5px 5px 16px 1px rgba(0,0,0,0.14);
+  border-radius: 3px;
+  background: var(--branquin);
+  color: #000;
+ 
+}
+
+.prt form{
+  padding: 6px;
+}
+
+.prt hr{
+  padding: 0;
+  width: 100%;
+  border: 0.2px solid #000;
+  background:#000;
+}
+.prt h2, h3, h4, h5{
+  text-align: center;
+}
+
+button{
+  outline: none;
+  border: 0.5px solid var(--amarelo);
+  width: 100%;
+  font-size: 15px;
+  padding: 2px;
+  border-radius: 4px;
+  margin-top: 3px;
+}
+
+h2{
+  text-align: center;
+}
+
+footer{
+  margin-top: 32.5%;
+  position: fixed;
+  background: var(--branquin);
+  width: 100%;
+  text-align: center;
+}
+
+.fg{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  outline: none;
+  border: none;
+  padding: 2px;
+}
+
+select{
+  outline: none;
+  border: none;
+}

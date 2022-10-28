@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../static/css/config.css">
+  <title>Configuração da Turma</title>
+</head>
+
+<body>
+  <header>
+    <h1>KyClass</h1>
+    <nav>
+      <ul>
+        <a><li>Início</li></a>
+        <a><li>Fórum</li></a>
+        <a><li>Configurações</li></a>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h3 style="color: #000;">Informações Gerais</h3>
+    <div id="infos" class="container">
+      <p><strong>Nome da turma: </strong><span>Os bagunceiros</span></p>
+      <p><strong>Sala: </strong> <span>9V1</span></p>
+      <p><strong>Token de acesso: </strong><span>YsjduJrdjs</span></p>
+      <button id="btn-del">Excluir Turma</button>
+    </div>
+  </main>
+  <div class="container" id="members">
+    <h4>Membros</h4>
+    <div class="aln" id="gustavobarrosdarocha">
+      <p><strong>Gustavo Barros da Rocha</strong></p>
+    </div>
+    <div class="aln" id="danielbarbosapereira">
+      <p><strong>Daniel Barbosa Ferreira</strong></p>
+    </div>
+    <div class="aln" id="tainareis">
+      <p><strong>Tayna Reis Fernandes</strong></p>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="../static/js/configs.js"></script>
+</body>
+
+</html>
