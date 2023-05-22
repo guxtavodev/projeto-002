@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="../static/css/cal.css">
+</head>
+
+<body>
+  <header>
+    <h1>KyClass</h1>
+    <nav>
+    <ul>
+      <a><li>Início</li></a>
+      <a><li>Notas</li></a>
+      <a><li>Outros</li></a>
+    </ul>
+    </nav>
+  </header>
+  <h2>Criar Aluno</h2>
+  <div class="opt">
+    <h3>Opções/Filtro</h3>
+    <hr>
+    <div class="opns">
+      <select id="materia">
+        <option>Matemática</option>
+        <option>Ciências</option>
+      </select>
+      <select id="turma">
+        <option>9V1</option>
+        <option>9V2</option>
+        <option>7V2</option>
+      </select>
+      <select id="school">
+        <option>HTA</option>
+        <option>Rômulo</option>
+        <option>Cemac/Saubara</option>
+      </select>
+    </div>
+    </div>
+    <main>
+      <form action="/" method="POST">
+        <div class="form-g">
+          <label>
+            Nome do Aluno
+          </label>
+          <input name="nome" class="it" type="text" placeholder="Nome completo">
+        </div>
+      </form>
+      <div class="form-g">
+        <label>Idade</label>
+        <input placeholder="Digite a idade dele" type="number" class="in" name="idd">
+      </div>
+      <div class="form-g">
+        <label>Temperamento</label>
+        <select name="temp">
+          <option value="quieto">Quieto</option>
+          <option value="tagarelo">Tagarelo</option>
+          <option value="timido">Tímido</option>
+          <option value="bagunceiro">Bagunceiro</option>
+        </select>
+      </div>
+      <input type="submit" value="Criar Aluno">
+    </main>
+    <script>
+      console.log(false+false)
+    </script>
+</body>
+
+</html>
